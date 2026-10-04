@@ -11,7 +11,7 @@
     {
       "binding": "DB",
       "database_name": "active-hire-test-db",
-      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+      "database_id": "fb5a65b6-fb09-4c34-9491-28e26e2dbe66",
       "migrations_dir": "migrations"
     }
   ]
