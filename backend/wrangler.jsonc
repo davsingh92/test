@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.cloudflare.com/wrangler/config-schema.json",
+  "name": "active-hire-test-api",
+  "main": "src/entry.py",
+  "compatibility_date": "2026-10-02",
+  "compatibility_flags": ["python_workers"],
+  "vars": {
+    "ALLOWED_ORIGIN": "https://YOUR-TEST-PAGES-DOMAIN.pages.dev"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "active-hire-test-db",
+      "database_id": "REPLACE_WITH_YOUR_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
