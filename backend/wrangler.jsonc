@@ -5,7 +5,7 @@
   "compatibility_date": "2026-10-02",
   "compatibility_flags": ["python_workers"],
   "vars": {
-    "ALLOWED_ORIGIN": "https://test.dav-singh92.workers.dev"
+    "ALLOWED_ORIGIN": "https://active-hire-test-site.pages.dev"
   },
   "d1_databases": [
     {
